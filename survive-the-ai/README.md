@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Survive The AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A survival game where players make choices in AI-generated scenarios. Each choice affects the story and the player's health. Can you survive?
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- AI-generated survival scenarios
+- Day-by-day progression
+- Health system
+- Persistent game state
+- Dark mode support
+- Sound settings
 
-### `npm start`
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/survive-the-ai.git
+cd survive-the-ai
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Install dependencies
+```bash
+npm install
+```
 
-### `npm test`
+3. Create a `.env.local` file in the root directory and add your OpenAI API key:
+```
+REACT_APP_OPENAI_API_KEY=your_api_key_here
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server
+```bash
+npm start
+```
 
-### `npm run build`
+## How to Play
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the game from the main menu
+2. Create your character
+3. Make choices in each scenario
+4. Try to survive as many days as possible
+5. Each day consists of 5 decisions
+6. Bad choices will reduce your health
+7. If your health reaches 0, it's game over!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the LICENSE file for details.
