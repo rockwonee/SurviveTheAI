@@ -64,7 +64,7 @@ const Game: React.FC = () => {
         messages: [
           {
             role: "system",
-            content: "You are a survival scenario generator. Format the response as JSON with a 'scenario' field and a 'choices' array containing objects with 'text' and 'isBad' fields. Make the story continuous and engaging."
+            content: "You are a fantasy/medieval survival scenario generator. Format the response as JSON with a 'scenario' field and a 'choices' array containing objects with 'text' and 'isBad' fields. Make the story continuous and engaging."
           },
           {
             role: "user",
